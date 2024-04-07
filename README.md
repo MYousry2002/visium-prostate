@@ -58,7 +58,7 @@ On the right, the number of genes by counts plot shows the diversity of gene exp
 
 Together, these plots provide insight into both the quantity and complexity of gene expression across different regions of the prostate tissue. They revealed a heterogeneous expression profile across the sampled tissue spots. Regions with high total counts and gene diversity might correspond to areas with a high density of cells or a high level of transcriptional activity, potentially indicating biologically active or significant zones within the tissue for further study. These regions, which are mostly around the ducts align with the known histology of the tissue as these regions are rich in secretary cells. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/aa0d0e97-e9b5-4497-b214-227c0af53e8e/fac3a250-c70d-4abd-97ea-1b4145f0d91a/Untitled.png)
+![alt text](images/fig1.png)
 
 Figure 1: Transcriptional Activity across Human Prostate Tissue. Left: Total transcript counts per spot. Right: Unique gene counts per spot, overlaid on H&E staining, indicating spatial expression heterogeneity.
 
@@ -68,11 +68,11 @@ Figure 1: Transcriptional Activity across Human Prostate Tissue. Left: Total tra
 
 Further analysis delineated distinct spatial clusters within the tissue, as shown in the UMAP (Figure 2) and corresponding histological plots (Figure 3). The cluster plot represents the result of a Leiden clustering algorithm, identifying ten distinct clusters (labeled 0-9) based on gene expression patterns. When mapped back onto the tissue image, these clusters exhibit a clear spatial organization, suggesting that gene expression is not random but structured within the tissue architecture.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/aa0d0e97-e9b5-4497-b214-227c0af53e8e/8dc57a61-a30e-459c-9b6c-d3a9e55d4547/Untitled.png)
+![alt text](images/fig2.png)
 
 Figure 2: UMAP Visualization of Gene Expression Clusters in Prostate Tissue. Each point represents a spot categorized by a Leiden-derived cluster, indicating gene expression similarities.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/aa0d0e97-e9b5-4497-b214-227c0af53e8e/c9f0dafd-a07f-4bf4-b1a0-2de95d82598b/Untitled.png)
+![alt text](images/fig3.png)
 
 Figure 3: Histological Mapping of Spatial Gene Expression Clusters. Leiden clusters from Visium data are overlaid onto an H&E-stained image of prostate tissue, showing the spatial distribution of gene expression.
 
@@ -84,11 +84,11 @@ The UMAP plot (Figure 4) visualizes the differential expression of KLK3 among th
 
 Moving to the spatial plot (Figure 5), I overlay this expression data onto the actual tissue architecture, where the expression levels of KLK3 are superimposed on an image of the tissue section. Here, we see the expression pattern of KLK3 correlating with the physical locations that likely represent the epithelial luminal cells around the ducts, which are the secretory powerhouses of the prostate. These cells are known to be the main producers of PSA, which is in line with the regions of elevated expression noted in the analysis.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/aa0d0e97-e9b5-4497-b214-227c0af53e8e/32e3f568-58e4-4886-8e36-921e1fb1d469/Untitled.png)
+![alt text](images/fig4.png)
 
 Figure 4: UMAP Plot Highlighting KLK3 Gene Expression Hotspots in Prostate Tissue.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/aa0d0e97-e9b5-4497-b214-227c0af53e8e/9df91c1f-a458-448c-b552-5d664434cb61/Untitled.png)
+![alt text](images/fig5.png)
 
 Figure 5: Histological View of KLK3 Expression Correlated with Prostate Gland Ductal Structure.
 
@@ -100,11 +100,11 @@ The expression of FBLN1, a marker gene for fibroblasts, was mapped across the pr
 
 Furthermore, the expression of TPM2, a marker for smooth muscle cells, was also analyzed. The spatial expression pattern of TPM2 revealed enrichment in regions different from both the high KLK3 expression areas and the fibroblast-marked territories. This further supports the specificity of the KLK3 expression to certain cell types within the prostate tissue and refutes the hypothesis that KLK3 expression is solely a consequence of heightened global transcriptional activity.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/aa0d0e97-e9b5-4497-b214-227c0af53e8e/3d5d5304-d62a-479c-b9c3-47cd8adc453f/Untitled.png)
+![alt text](images/fig6.png)
 
 Figure 6: Spatial Distribution of FBLN1 Expression in Prostate Tissue. The hexagon overlay indicates the presence of fibroblasts with FBLN1 expression, showing a distinct pattern from KLK3-rich areas.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/aa0d0e97-e9b5-4497-b214-227c0af53e8e/11ce5ebf-8d12-4c97-9a89-6322bf7ec5c3/Untitled.png)
+![alt text](images/fig7.png)
 
 Figure 7: Spatial Localization of TPM2 Expression in Prostate Tissue. This plot illustrates regions rich in smooth muscle cells, marked by TPM2 expression, separate from the high KLK3 expression zones.
 
@@ -120,7 +120,7 @@ This study showcases the power of spatial transcriptomics in uncovering the hidd
 
 ## Data and Resources
 
-The spatial gene expression dataset analyzed in this study was acquired from 10X Genomics’ public Visium datasets [here](https://www.10xgenomics.com/datasets/normal-human-prostate-ffpe-1-standard-1-3-0). Comprehensive analysis scripts and related resources are available on the project’s GitHub repository [here](https://github.com/MYousry2002/visium-prostate).
+The spatial gene expression dataset analyzed in this study was acquired from 10X Genomics’ public Visium datasets [here](https://www.10xgenomics.com/datasets/normal-human-prostate-ffpe-1-standard-1-3-0). Comprehensive analysis scripts and related resources are available on this project’s GitHub repository.
 
 ## Bibliography
 
