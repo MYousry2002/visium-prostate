@@ -177,4 +177,5 @@ Koistinen, H., Künnapuu, J., & Jeltsch, M. (2021). KLK3 in the regulation of an
 *Spatial gene expression*. 10x Genomics. (n.d.). https://www.10xgenomics.com/products/spatial-gene-expression
 
 *Spatial*. Scanpy. (n.d.). https://scanpy.readthedocs.io/en/stable/tutorials/spatial/index.html 
+
 Yu, Q., Jiang, M., & Wu, L. (2022). Spatial Transcriptomics Technology in cancer research. *Frontiers in Oncology*, *12*. https://doi.org/10.3389/fonc.2022.1019111
