@@ -66,6 +66,7 @@ Figure 1: Transcriptional Activity across Human Prostate Tissue. Left: Total tra
  
 
 **Spatial Clustering of Gene Expression**
+
 Further analysis delineated distinct spatial clusters within the tissue, as shown in the UMAP (Figure 2) and corresponding histological plots (Figure 3). The cluster plot represents the result of a Leiden clustering algorithm, identifying ten distinct clusters (labeled 0-9) based on gene expression patterns. Each individual point is not a cell but a region or a spot in the tissue. Thus, these clusters represent distinct microenvironments or niches within the prostate tissue, each characterized by unique gene expression profiles that likely correspond to different cellular compositions or states of cellular activity. When mapped back onto the tissue image, these clusters exhibit a clear spatial organization, suggesting that gene expression is not random but structured within the tissue architecture.
 
 
